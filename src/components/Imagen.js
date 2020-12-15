@@ -1,7 +1,6 @@
 import React from "react";
 
 export const Imagen = ({ imagen }) => {
-  console.log(imagen);
 
   //extraer variables
   const { largeImageURL, likes, previewURL, tags, views } = imagen;
